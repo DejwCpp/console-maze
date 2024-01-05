@@ -68,6 +68,8 @@ void ConsoleCenterWindow(int consoleWidth, int consoleHeight);
 
 int main()
 {
+	system("title the maze");
+	
 	ConsoleCenterWindow(1000, 580);
 	
 	cursor_visibility(false);
